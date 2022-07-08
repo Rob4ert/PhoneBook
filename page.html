@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>PhoneBook</title>
+    <!-- Favicon -->
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAA
+    AIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAk3bkAIJr3QB+a+AA////ADtHYgC
+    eoaIAOU5tAHly3wCAXuAA1q93ADYuvgB9W8sAPn3/AJN15ACIaOIAAAAAAAAAAAAAAGAAAAZgAAA
+    Au7u7u7AAAAu7uqu7sAAAC7qqWquwAAALulqlerAAAAulRESlsAAAAKpN1KqwAAAAtaRKqrAAAJm
+    6pVqruQAJmbu6q7uZkAmZm7u7uZmQCZmbmcm5mZAA4eLu7o7uAAAAD///PwAAAAAAAAAAAAD//wA
+    A9+cAAPAHAADgBwAA4AcAAOAHAADgBwAA8AcAAPAHAADAAwAAgAEAAIABAACAAQAAwAMAAPgPAAD
+    //wAA" rel="icon" type="image/x-icon" />
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- SEARCH BAR -->
+
+        <div class="centre">
+          <div class="search">
+            <form id="form" role="search">
+              <input type="search" id="query"
+              placeholder="Type name or a number...">
+              <button type="button" class="searchbutton">Search</button>
+            </form>
+            <p id="found"></p>
+        </div>
+        </div>
+
+        <!-- LOWER COINTAINER -->
+        <!-- Create contact -->
+
+        <div class="lower">
+
+          <div class="container">
+            <form id="contact">
+              <h1>Create New Contact</h1>
+              <input id="name" class = "name" placeholder="Name" type="text" required="required">
+              <input id="surname" placeholder="Surname" type="text" required="required">
+              <input id="phone" placeholder="Telephone" type="number" required="required">
+              <input id="address" placeholder="Address" type="text" required="required">
+              <button id="create-contact">Create</button>
+            </form>
+          </div>
+          <div class="contacts">
+
+        <!-- Contacts table -->
+
+            <table id="basic">
+                <tr id="con">
+                    <thead>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Telephone</th>
+                        <th>Address</th>
+                        <th id="delcell">
+                          <img src=
+                          "https://cdn-icons-png.flaticon.com/512/2891/2891067.png"
+                          alt="bin">
+                        </th>
+                    </thead>
+                </tr>
+                <tbody id="data">
+
+                </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- FOOTER -->
+
+        <footer>
+          <p id="foot">
+        Created by Robert Rybczynski </br>
+        2022
+        </p>
+      </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+  </body>
+
+
+</html>

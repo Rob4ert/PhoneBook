@@ -1,0 +1,119 @@
+body {
+  height: 100%;
+  background: #072227;
+  font-family: sans-serif;
+}
+
+.centre {
+  width: 800px;
+  background-color: #35858B;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* SEARCH BUTTON */
+
+.search {
+  padding: 5px;
+}
+
+.searchbutton {
+  top: 50%;
+  left: 55%;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.searchbutton:hover {
+  background: #072227;
+}
+
+/* TABLE */
+
+table{
+  background-color: #273032;
+  color: #FFF;
+  padding: 5px;
+  table-layout:fixed;
+  width: 700px;
+}
+img{
+  height: 3rem;
+  width: : 1rem;
+}
+
+#delcell {
+  padding: 10px 30px;
+}
+
+th {
+  padding: 10px 50px;
+  border: solid #072227;
+}
+
+td {
+  padding: 10px;
+  word-wrap: break-word;
+  border: solid #072227;
+}
+
+.contactbutton {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background: #273032;
+    color: #FFF;
+    font-size: 17px;
+    border: 1px solid grey;
+    cursor: pointer;
+
+}
+
+/* ADD CONTACTS */
+#contacts {
+  font-size: 17px;
+  padding: 20px;
+}
+
+.lower {
+  width: 700px;
+  height: auto;
+  padding: 20px;
+  background-color: #35858B;
+  margin: 13rem auto;
+
+}
+
+input {
+  margin: 5px 5px 10px;
+  width: 80%;
+  padding: 0.6rem;
+  color: black;
+}
+
+#create-contact {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: black;
+}
+
+.container {
+
+}
+
+.dltBtn {
+  padding: 10px;
+  border: solid #072227;
+}
+
+#foot {
+  color: white;
+}
